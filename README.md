@@ -3,7 +3,7 @@
 This is a boilerplate setup for local development work on wordpress. The setup orchestrated using **Docker Compose**.
 
 ## Build and run wordpress and database services
-> The database files will be created in `./data/mysql`, and the wordpress installation will be created in `./src/wordpress`. Any data created in the database, or edit in the wordpress source code wil be persisted unless purged.
+> The database files will be created in `./.data/mysql`, and the wordpress installation will be created in `./src/wordpress`. Any data created in the database, or edit in the wordpress source code wil be persisted unless purged.
 ```
 $make start
 ```
