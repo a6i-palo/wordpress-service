@@ -1,0 +1,21 @@
+Makefile.properties
+config.yaml
+*.log
+.git-*
+/.data
+/src/wordpress
+.env
+
+################
+# os artifacts #
+################
+**/.DS_Store
+
+#################
+# ide artifacts #
+#################
+# vscode
+\.vscode/
+# intellij
+.idea
+*.iml
