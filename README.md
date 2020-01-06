@@ -1,9 +1,9 @@
 # Service Wordpress
 
-This is a boilerplate setup for local development work on wordpress. The setup orchestrated using **Docker Compose**.
+This is a boilerplate setup for local development work on **Wordpress**. The setup is orchestrated using **Docker Compose**.
 
 ## Build and run wordpress and database services
-> The database files will be created in `./.data/mysql`, and the wordpress installation will be created in `./src/wordpress`. Any data created in the database, or edit in the wordpress source code wil be persisted unless purged.
+> The database files will be created in `./.data/mysql`, and the Wordpress installation will be created in `./src/wordpress`. Any data created in the database, or edits in the Wordpress source code wil be persisted unless purged.
 ```
 $make start
 ```
@@ -18,7 +18,7 @@ $make stop
 $make purge
 ```
 ## Accessing
-Acess the wordpress service via port 8000 on your localhost - [http://localhost:8000/](http://localhost:8000/).
+Access the wordpress service via port 8000 on your localhost - [http://localhost:8000/](http://localhost:8000/).
 
 ## Environment Variables
 Define your own environment variable values for the services using `.env` file.
