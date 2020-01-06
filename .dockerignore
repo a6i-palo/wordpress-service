@@ -1,0 +1,17 @@
+#########################
+# provisioning artifact #
+#########################
+docker-compose.yml
+Dockerfile
+Makefile
+
+#####################
+# development stuff #
+#####################
+.bin
+.dockerignore
+.gitignore
+.vscode
+preview
+README.md
+.git
